@@ -12,5 +12,13 @@
     "branch": "corvus",
     "remote": "github"
    },
+   
+   {
+    "repository": "Hatsune71/kernel_msm8953-64",
+    "target_path": "kernel/xiaomi/msm8953",
+    "branch": "Mikasa",
+    "remote": "github"
+   },
+   
 ]
    
