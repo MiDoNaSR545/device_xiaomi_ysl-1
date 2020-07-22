@@ -2,14 +2,14 @@
    {
     "repository": "Corvus-Devices/device_xiaomi_msm8953-common-ysl",
     "target_path": "device/xiaomi/msm8953-common",
-    "branch": "corvus",
+    "branch": "10",
     "remote": "github"
    },
 
    {
     "repository": "Corvus-Devices/vendor_xiaomi_ysl",
     "target_path": "vendor/xiaomi",
-    "branch": "corvus",
+    "branch": "10",
     "remote": "github"
    },
    
