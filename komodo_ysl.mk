@@ -21,16 +21,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from ysl device
 $(call inherit-product, device/xiaomi/ysl/device.mk)
 
-# Inherit some common Corvus OS stuff.
-$(call inherit-product, vendor/du/config/common_full_phone.mk)
+# Inherit some common komodo OS stuff.
+$(call inherit-product, vendor/du/komodo/common_full_phone.mk)
 
-# Corvus OS Official Device Tree
+# komodo OS Official Device Tree
 TARGET_BOOT_ANIMATION_RES := 720
-DU_BUILD_TYPE := OFFICIAL
+IS_PHONE := true
+CURRENT_BUILD_TYPE := nogapps
+KOMODO_BUILD_TYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
-PRODUCT_NAME := du_ysl
+PRODUCT_NAME := komodo_ysl
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi S2

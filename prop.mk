@@ -13,3 +13,7 @@ vendor.camera.aux.packagelist2=com.google.android.GoogleCameraWide,com.dual.GCam
 vendor.camera.hal1.packagelist=com.whatsapp \
 persist.camera.dual.camera=0 \
 persist.camera.eis.enable=1
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    org.komodo.maintainer= 初 音 ミ ク - 🌸 
